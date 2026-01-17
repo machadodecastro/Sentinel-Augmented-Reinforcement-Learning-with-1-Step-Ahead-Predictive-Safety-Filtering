@@ -11,7 +11,7 @@ The central motivation behind this approach is that model-based methods have the
 
 I assume that, in practice, it is enough to predict a few steps ahead to prevent dangerous events from occurring. Consider, for example, the case illustrated in Figure 1 in which the sentinel explores the environment first. It evaluates possible actions and resulting positions relative to the target. So it sends signals (positive / negative / neutral) to the main agent, representing estimated reward or safety for each action. The main agent then uses these signals to make safer choices — avoiding costly or dangerous trial-and-error.
 
-<img width="609" height="346" alt="image" src="https://github.com/user-attachments/assets/864e475a-36e0-4a87-b0a5-fcc735fff715" />
+<img width="643" height="355" alt="image" src="https://github.com/user-attachments/assets/c8630d97-55f3-4522-b8c3-d081075e0efa" />
 
 
 2	Background
